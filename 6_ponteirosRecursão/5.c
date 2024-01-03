@@ -47,37 +47,3 @@ int main(){
     return 0;
 }
 
-/*
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(){
-
-    int N;
-
-    printf("Valor de N: \n");
-
-    do { scanf("%d", &N); } while (N <= 0);
-
-    int *V = (int *) malloc (N * sizeof(int));
-
-    printf("Insiira elementos no vetor: \n");
-    for(int i = 0; i < N; i++){
-
-        // ler N valores maiores ou iguais a 2
-        do {
-           scanf("%d", &V[i]);
-        } while (V[i] < 2);
-    }
-
-    for(int i = 0; i < N; i++){
-
-        printf("%d", V[i]);
-    }
-
-    free(V);
-
-    return 0;
-}
-
-*/
